@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GCine</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
+			<ul>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+							Inicio
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/cartelera/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">movie_creation</i>
+						</div>
+						<div class="item-inner">
+							Cartelera
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/info/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_dining</i>
+						</div>
+						<div class="item-inner">
+							Dulcería
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/info/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_offer</i>
+						</div>
+						<div class="item-inner">
+						Promociones
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">theaters</i>
+						</div>
+						<div class="item-inner">
+							Peliculas
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/perfil/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">account_box</i>
+						</div>
+						<div class="item-inner">
+							Perfil
+						</div>
+					</a>
+				</li>
+				<li class="log-out">
+					<a href="/home/" class="item-link item-content  panel-close">
+						<div class="item-media">
+							<i class="material-icons">login</i>
+						</div>
+						<div class="item-inner">
+						Salir
+						</div>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+     
+     	
+     </section>
+     
+     
+     <section class="panel panel-right panel-cover">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">GCine</div>
+            </div>
+          </nav>
+        			<section id="home-productos">
+        			<article class="page-content">
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/tangled.jpg" class="img-fluid">
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/aristo.jpg" class="img-fluid">
+										</div>
+									</article>
+									
+								</div>
+								<div class="swiper-slide">
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/bella.jpg" class="img-fluid">
+										</div>
+									</article>
+									
+								</div>		
+								<div class="swiper-slide">
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/flash.jpg" class="img-fluid">
+										</div>
+									</article>
+									
+								</div>		
+							</div>
+						</div>
+        				</article>
+        			</section><!-- home-productos -->
+			
+        			<!-- Scrollable page content -->
+          <article class="page-content">
+		  		<div class="block">
+		  			<h2 class="block-title-medium">¿Qué pelicula quieres ver?</h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+									<h2>Mulan</h2>
+        							<h4>1998</h4>
+									<h5>1h 28min</h5>
+        							<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/mulan.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+					<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h2>La sirenita</h2>
+        							<h4>1989</h4>
+									<h5>1h 25min</h5>
+        							<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/sirenita.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+					<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h2>Hercules</h2>
+        							<h4>1997</h4>
+									<h5>1h 33min</h5>
+        							<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/hercules.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+					<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        						<h2>Aladdin</h2>
+        							<h4>1991</h4>
+									<h5>1h 31min</h5>
+        						<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/aladdin.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+					<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h2>Lion King</h2>
+        							<h4>1994</h4>
+									<h5>1h 29min</h5>
+        							<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/lionking.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+					<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h2>Princess and the Frog</h2>
+        							<h4>2009</h4>
+									<h5>1h 38min</h5>
+        							<span class="clasificacion">PG-13</span>
+        						</article>
+        						<article class="col-40">
+        							<img src="img/tiana.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+        			
+        			
+        			
+        			
+        			
+        		</div>
+         
+          </article>
+			
+        </section><!-- page -->
+		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="/home/" class="tab-link">
+			  <i class="material-icons">home</i>
+			  <span class="tabbar-label">Inicio</span>
+			</a>
+			<a href="/cartelera/" class="tab-link">
+			  <i class="material-icons">theaters</i>
+			  <span class="tabbar-label">Cartelera</span>
+			</a>
+			<a href="/perfil/" class="tab-link">
+			  <i class="material-icons">person</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+		  </div>
+		</div>
+
+      </div><!-- view -->
+		
+    </section>
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
